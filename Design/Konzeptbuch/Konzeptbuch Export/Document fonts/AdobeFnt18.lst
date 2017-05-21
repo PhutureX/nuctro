@@ -1,0 +1,116 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Oswald-Bold
+FamilyName:Oswald
+StyleName:Bold
+FullName:Oswald Bold
+MenuName:Oswald
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\PhutureX\Documents\Nuctro\Konzeptbuch\Konzeptbuch Export\Document fonts\Oswald-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:53056
+FileModTime:1494514970
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Oswald Bold
+NameArray:0,Mac,4,Oswald Bold
+NameArray:0,Win,1,Oswald
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Oswald-Light
+FamilyName:Oswald
+StyleName:Light
+FullName:Oswald Light
+MenuName:Oswald
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PhutureX\Documents\Nuctro\Konzeptbuch\Konzeptbuch Export\Document fonts\Oswald-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:44740
+FileModTime:1494514975
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Oswald Light
+NameArray:0,Mac,4,Oswald Light
+NameArray:0,Win,1,Oswald
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Oswald-Regular
+FamilyName:Oswald
+StyleName:Regular
+FullName:Oswald Regular
+MenuName:Oswald
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PhutureX\Documents\Nuctro\Konzeptbuch\Konzeptbuch Export\Document fonts\Oswald-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:50944
+FileModTime:1494514982
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Oswald Regular
+NameArray:0,Mac,4,Oswald Regular
+NameArray:0,Win,1,Oswald
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Reckoner
+FamilyName:Reckoner
+StyleName:Regular
+FullName:Reckoner
+MenuName:Reckoner
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PhutureX\Documents\Nuctro\Konzeptbuch\Konzeptbuch Export\Document fonts\Reckoner_0.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:23592
+FileModTime:1495315789
+WeightClass:500
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Reckoner
+NameArray:0,Win,1,Reckoner
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ReckonerBold
+FamilyName:Reckoner Bold
+StyleName:Condensed Bold
+FullName:Reckoner Bold
+MenuName:Reckoner Bold
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\PhutureX\Documents\Nuctro\Konzeptbuch\Konzeptbuch Export\Document fonts\Reckoner_Bold_0.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:28376
+FileModTime:1495315797
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Reckoner Bold
+NameArray:0,Win,1,Reckoner Bold
+%EndFont
+

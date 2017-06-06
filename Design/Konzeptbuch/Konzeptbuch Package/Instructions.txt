@@ -2,9 +2,9 @@ ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
 
 PUBLICATION NAME: Konzeptbuch.indd
 
-PACKAGE DATE: 5/22/2017 7:58 AM
-Creation Date: 5/22/2017
-Modification Date: 5/22/2017
+PACKAGE DATE: 6/7/2017 12:58 AM
+Creation Date: 6/7/2017
+Modification Date: 6/7/2017
 
 CONTACT INFORMATION
 
@@ -28,7 +28,7 @@ SPECIAL INSTRUCTIONS AND OTHER NOTES
 
 
 External Plug-ins 0
-Non Opaque Objects :On Page1, 4, 5, 6, 7, 10, 11, 12, 14, 15, 16, 17, 19, A
+Non Opaque Objects :On Page1, 6, 7, 8, 9, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, A
 
 FONTS
 5 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
@@ -52,8 +52,8 @@ COLORS AND INKS
 
 LINKS AND IMAGES
 (Missing & Embedded Links Only)
-Links and Images: 33 Links Found; 0 Modified, 0 Missing 0 Inaccessible
-Images: 0 Embedded, 33 use RGB color space
+Links and Images: 58 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 58 use RGB color space
 
 
 PRINT SETTINGS
@@ -65,8 +65,8 @@ Even/Odd Pages: Both
 Pages: All
 Proof: No
 Tiling: None
-Scale: 100%, 100%
-Page Position: Upper Left
+Scale: Scale to fit page
+Page Position: Center
 Print Layers: Visible & Printable Layers
 Printer's Marks: None
 Bleed: 0p0, 0p0, 0p0, 0p0
@@ -76,16 +76,16 @@ Send Image Data: Optimized Subsampling
 OPI/DCS Image Replacement: No
 Page Size: A4
 Paper Dimensions: 51p0 x 66p0
-Orientation: Portrait
+Orientation: Landscape
 Negative: No
 Flip Mode: Off
 
 
 FILE PACKAGE LIST
 
-1. Konzeptbuch.indd; type: Adobe InDesign publication; size: 3972K
-2. Konzeptbuch.idml; type: InDesign Markup Document; size: 173K
-3. Konzeptbuch.pdf; type: Adobe Acrobat Document; size: 13162K
+1. Konzeptbuch.indd; type: Adobe InDesign publication; size: 6092K
+2. Konzeptbuch.idml; type: InDesign Markup Document; size: 274K
+3. Konzeptbuch.pdf; type: Adobe Acrobat Document; size: 16322K
 4. Oswald-Bold.ttf; type: Font file; size: 51K
 5. Oswald-Light.ttf; type: Font file; size: 43K
 6. Oswald-Regular.ttf; type: Font file; size: 49K

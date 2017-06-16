@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&subset=latin-ext');
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  background-color: rgb(204, 230, 249)
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+p{
+  font-family: 'Oswald', sans-serif;
+}
+
+a{
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: blue;
+}
+
+button{
+  font-family: 'Oswald', sans-serif;
+}
+
+input{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  padding-left: 15px;
+  margin-top: 15px;
+  height: 45px;
+  width: 80%;
+  display: block;
+}
+
+header{
+  background-color: rgb(26, 26, 27);
+  color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+}
+
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav  ul{
+  display: flex;
+  align-content: center;
+  padding: 0 40px;
+}
+
+.main-nav li{
+  list-style: none;
+  padding-right: 22px;
+}
+
+.main-nav i{
+  padding-right: 5px;
+}
+
+.main-nav a{
+  font-size: 1.2em;
+  height: 42px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.post-btn{
+  border: none;
+  border-radius: 5px;
+  padding: 8px 38px;
+  font-size: 1.1em;
+  color: white;
+  background-color: rgb(42, 119, 233);
+  cursor: pointer;
+}
+
+
+.sub-header{
+  padding-top: 100px;
+  padding-bottom: 26px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.sub-header img{
+  height: 100px;
+}
+
+.sub-header a{
+  color: rgb(26, 26, 27);
+}
+
+.sub-header i{
+  padding: 0px 25px;
+  font-size: 75px;
+}
+
+.sub-header p{
+  height: 95px;
+  width: 100%;
+  font-size: 55px;
+  font-weight: lighter;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sort-nav{
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.sort-nav ul{
+  display: flex;
+  align-content: center;
+  padding: 0 40px;
+}
+.sort-nav li{
+  list-style: none;
+  padding-right: 22px;
+}
+
+.sort-nav a{
+  font-size: 1.2em;
+}
+
+
+#login_popup{
+  width: 50vw;
+  background-color: white;
+}
+
+.form-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px 50px;
+}
+
+.register-col{
+  width: 50%;
+}
+
+.login-col{
+  width: 50%;
+}

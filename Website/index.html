@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nuctro</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo/Favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#"><i class="material-icons">dashboard</i>Dashboard</a></li>
+          <li><a href="#"><i class="material-icons">chat_bubble</i>Messages</a></li>
+          <li><a href="#"><i class="material-icons">notifications</i>Notifications</a></li>
+          <li><a href="#"><i class="material-icons">settings</i>Settings</a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="login_popup_open">Login or Register</a></li>
+          <li><button class="post-btn post_popup_open">Create Post</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="sub-header">
+        <a href="#"><img src="img/logo/logo.png" alt="Logo"></a><i>/</i><a href="#"><p>Subsite</p></a>
+    </section>
+    <nav class="sort-nav">
+      <ul>
+        <li><a href="#">hot</a></li>
+        <li><a href="#">new</a></li>
+        <li><a href="#">rising</a></li>
+        <li><a href="#">top</a></li>
+        <li><a href="#">view images</a></li>
+      </ul>
+    </nav>
+    <div id="login_popup">
+      <div class="form-box">
+        <div class="register-col">
+          <h2>Register</h2>
+          <form class="" action="index.html" method="post">
+            <input type="text" name="" value="" placeholder="Choose Username">
+            <input type="password" name="" value="" placeholder="Password">
+            <input type="password" name="" value="" placeholder="Verfy Password">
+            <input type="email" name="" value="" placeholder="E-Mail">
+            <input type="checkbox" name="" value="">Stay logged in
+            <input type="checkbox" name="" value="">Send me updates
+            <input type="submit" name="" value="Register">
+          </form>
+        </div>
+        <div class="login-col">
+          <h2>Login</h2>
+          <form class="" action="index.html" method="post">
+            <input type="text" name="" value="" placeholder="Username">
+            <input type="password" name="" value="" placeholder="Password">
+            <input type="checkbox" name="" value="">Stay logged in
+            <a href="#">Reset Password</a>
+            <input type="submit" name="" value="Login">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="post_popup">
+      <h1>Hello World 2!</h1>
+    </div>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <!-- Popup Plugin -->
+    <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#login_popup').popup({
+          transition: 'all 0.3s'
+        });
+      });
+      $(document).ready(function() {
+        $('#post_popup').popup({
+          transition: 'all 0.3s'
+        });
+      });
+    </script>
+  </body>
+</html>

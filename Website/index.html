@@ -11,10 +11,10 @@
     <header>
       <nav class="main-nav">
         <ul>
-          <li><a href="#"><i class="material-icons">dashboard</i>Dashboard</a></li>
-          <li><a href="#"><i class="material-icons">chat_bubble</i>Messages</a></li>
+          <li><a href="sites/dashboard.html"><i class="material-icons">dashboard</i>Dashboard</a></li>
+          <li><a href="sites/messages.html"><i class="material-icons">chat_bubble</i>Messages</a></li>
           <li><a href="#"><i class="material-icons">notifications</i>Notifications</a></li>
-          <li><a href="#"><i class="material-icons">settings</i>Settings</a></li>
+          <li><a href="sites/settings.html"><i class="material-icons">settings</i>Settings</a></li>
         </ul>
         <ul>
           <li><a href="#" class="login_popup_open">Login or Register</a></li>
@@ -22,9 +22,9 @@
         </ul>
       </nav>
     </header>
-    <section class="sub-header">
-        <a href="#"><img src="img/logo/logo.png" alt="Logo"></a><i>/</i><a href="#"><p>Subsite</p></a>
-    </section>
+    <div class="sub-header">
+        <h1><a href="index.html"><img src="img/logo/logo.svg" alt="Logo"></a></h1><a href="#"><p>Subsite</p></a>
+    </div>
     <nav class="sort-nav">
       <ul>
         <li><a href="#">hot</a></li>
@@ -34,28 +34,89 @@
         <li><a href="#">view images</a></li>
       </ul>
     </nav>
+    <main>
+      <div id="submission">
+      </div>
+      <div id="sidebar">
+        <form class="" action="index.html" method="post">
+          <input type="text" name="search" placeholder="Search...">
+          <button type="submit">
+            <i class="material-icons">search</i>
+          </button>
+        </form>
+        <h2>Subsite Name</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button type="button" id="subscribe-btn" class="sidebar-btn">Subscribe</button>
+        <h2>12345 Readers</h2>
+        <h3>123 Users here now</h3>
+        <h3>speaking as <a href="#">Username</a></h3>
+        <h2>Community Rules</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2>Moderators</h2>
+        <hr>
+        <ul>
+          <li><a href="#">Moderator 1</a></li>
+          <li><a href="#">Moderator 2</a></li>
+          <li><a href="#">Moderator 3</a></li>
+          <li><a href="#">Moderator 4</a></li>
+          <li><a href="#">Moderator 5</a></li>
+        </ul>
+        <hr>
+        <a href="#">View All</a>
+        <button type="button" id="mod-msg-btn" class="sidebar-btn">Message the Moderators</button>
+        <h2>My Communities</h2>
+        sort by <select>
+          <option value="">most subscribers</option>
+          <option value="">least subscribers</option>
+          <option value="">most active</option>
+          <option value="">least active</option>
+        </select>
+        <hr>
+        <ul>
+          <li><a href="#">Subsite 1</a><span>1234567 Subscriber</span></li>
+          <li><a href="#">Subsite 2</a><span>123456 Subscriber</span></li>
+          <li><a href="#">Subsite 3</a><span>12345 Subscriber</span></li>
+          <li><a href="#">Subsite 4</a><span>1234 Subscriber</span></li>
+          <li><a href="#">Subsite 5</a><span>123 Subscriber</span></li>
+        </ul>
+        <hr>
+        <a href="#">View All</a>
+        <button type="button" id="create-sub-btn" class="sidebar-btn">Create your own Subsite</button>
+      </div>
+    </main>
     <div id="login_popup">
       <div class="form-box">
         <div class="register-col">
           <h2>Register</h2>
           <form class="" action="index.html" method="post">
-            <input type="text" name="" value="" placeholder="Choose Username">
-            <input type="password" name="" value="" placeholder="Password">
-            <input type="password" name="" value="" placeholder="Verfy Password">
-            <input type="email" name="" value="" placeholder="E-Mail">
-            <input type="checkbox" name="" value="">Stay logged in
-            <input type="checkbox" name="" value="">Send me updates
-            <input type="submit" name="" value="Register">
+            <input type="text" name="RegisterUsername" placeholder="Choose Username">
+            <input type="password" name="RegisterPassword" placeholder="Password">
+            <input type="password" name="RegisterPasswordConfirm" placeholder="Verfy Password">
+            <input type="email" name="RegisterEmail" placeholder="E-Mail">
+            <div class="Checkbox-Container">
+              <input type="checkbox" id="Register-Save-Login">
+              <label for="Register-Save-Login">I agree with the <a href="#">Terms & Conditions</a>.</label>
+            </div>
+            <div class="Checkbox-Container">
+              <input type="checkbox" id="Register-Newsletter">
+              <label for="Register-Newsletter">Send me updates</label>
+            </div>
+            <input type="submit" value="Register">
           </form>
         </div>
         <div class="login-col">
           <h2>Login</h2>
           <form class="" action="index.html" method="post">
-            <input type="text" name="" value="" placeholder="Username">
-            <input type="password" name="" value="" placeholder="Password">
-            <input type="checkbox" name="" value="">Stay logged in
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <div class="Checkbox-Container">
+              <input type="checkbox" id="Login-Save-Login">
+              <label for="Login-Save-Login">Stay logged in</label>
+            </div>
             <a href="#">Reset Password</a>
-            <input type="submit" name="" value="Login">
+            <input type="submit" value="Login">
           </form>
         </div>
       </div>

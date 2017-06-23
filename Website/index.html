@@ -16,7 +16,10 @@
           <li class="desktop_menu"><a href="sites/messages.html"><i class="material-icons">chat_bubble</i>Messages</a></li>
           <li class="desktop_menu"><a href="#"><i class="material-icons">notifications</i>Notifications</a></li>
           <li class="desktop_menu"><a href="sites/settings.html"><i class="material-icons">settings</i>Settings</a></li>
-          <li id="panel"><a href="#" class="toggle-button"><i class="material-icons">menu</i></a></li>
+          <li id="panel"><a href="#" class="toggle-menu"><i class="material-icons" id="test1">menu</i></a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="toggle-sidebar" onclick="openSidebar()"><i class="material-icons">arrow_back</i></a></li>
         </ul>
         <ul>
           <li><a href="#" class="login_popup_open">Login or Register</a></li>
@@ -25,6 +28,7 @@
       </nav>
       <nav id="mobile_menu">
         <ul>
+          <!-- <li><a href="#" class="login_popup_open">Login or Register</a></li> -->
           <li class="desktop_menu"><a href="#" class="post_popup_open"><i class="material-icons">label</i>Create a Post</a></li>
           <li class="desktop_menu"><a href="sites/dashboard.html"><i class="material-icons">dashboard</i>Dashboard</a></li>
           <li class="desktop_menu"><a href="sites/messages.html"><i class="material-icons">chat_bubble</i>Messages</a></li>
@@ -47,54 +51,57 @@
     </nav>
     <main>
       <div id="submission">
-      </div>
+      </div >
       <div id="sidebar">
-        <form class="" action="index.html" method="post">
-          <input type="text" name="search" placeholder="Search...">
-          <button type="submit">
-            <i class="material-icons">search</i>
-          </button>
-        </form>
-        <h2>Subsite Name</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" id="subscribe-btn" class="sidebar-btn">Subscribe</button>
-        <h2>12345 Readers</h2>
-        <h3>123 Users here now</h3>
-        <h3>speaking as <a href="#">Username</a></h3>
-        <h2>Community Rules</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <h2>Moderators</h2>
-        <hr>
-        <ul>
-          <li><a href="#">Moderator 1</a></li>
-          <li><a href="#">Moderator 2</a></li>
-          <li><a href="#">Moderator 3</a></li>
-          <li><a href="#">Moderator 4</a></li>
-          <li><a href="#">Moderator 5</a></li>
-        </ul>
-        <hr>
-        <a href="#">View All</a>
-        <button type="button" id="mod-msg-btn" class="sidebar-btn">Message the Moderators</button>
-        <h2>My Communities</h2>
-        sort by <select>
-          <option value="">most subscribers</option>
-          <option value="">least subscribers</option>
-          <option value="">most active</option>
-          <option value="">least active</option>
-        </select>
-        <hr>
-        <ul>
-          <li><a href="#">Subsite 1</a><span>1234567 Subscriber</span></li>
-          <li><a href="#">Subsite 2</a><span>123456 Subscriber</span></li>
-          <li><a href="#">Subsite 3</a><span>12345 Subscriber</span></li>
-          <li><a href="#">Subsite 4</a><span>1234 Subscriber</span></li>
-          <li><a href="#">Subsite 5</a><span>123 Subscriber</span></li>
-        </ul>
-        <hr>
-        <a href="#">View All</a>
-        <button type="button" id="create-sub-btn" class="sidebar-btn">Create your own Subsite</button>
+        <div class="sidebar-wrapper">
+          <div class="box-close"><a href="#" class="login_popup_close" onclick="closeSidebar()"><i class="material-icons">close</i></a></div>
+          <form class="" action="index.html" method="post">
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit">
+              <i class="material-icons">search</i>
+            </button>
+          </form>
+          <h2>Subsite Name</h2>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" id="subscribe-btn" class="sidebar-btn">Subscribe</button>
+          <h2>12345 Readers</h2>
+          <h3>123 Users here now</h3>
+          <h3>speaking as <a href="#">Username</a></h3>
+          <h2>Community Rules</h2>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Moderators</h2>
+          <hr>
+          <ul>
+            <li><a href="#">Moderator 1</a></li>
+            <li><a href="#">Moderator 2</a></li>
+            <li><a href="#">Moderator 3</a></li>
+            <li><a href="#">Moderator 4</a></li>
+            <li><a href="#">Moderator 5</a></li>
+          </ul>
+          <hr>
+          <a href="#">View All</a>
+          <button type="button" id="mod-msg-btn" class="sidebar-btn">Message the Moderators</button>
+          <h2>My Communities</h2>
+          sort by <select>
+            <option value="">most subscribers</option>
+            <option value="">least subscribers</option>
+            <option value="">most active</option>
+            <option value="">least active</option>
+          </select>
+          <hr>
+          <ul>
+            <li><a href="#">Subsite 1</a><span>1234567 Subscriber</span></li>
+            <li><a href="#">Subsite 2</a><span>123456 Subscriber</span></li>
+            <li><a href="#">Subsite 3</a><span>12345 Subscriber</span></li>
+            <li><a href="#">Subsite 4</a><span>1234 Subscriber</span></li>
+            <li><a href="#">Subsite 5</a><span>123 Subscriber</span></li>
+          </ul>
+          <hr>
+          <a href="#">View All</a>
+          <button type="button" id="create-sub-btn" class="sidebar-btn">Create your own Subsite</button>
+        </div>
       </div>
     </main>
     <div id="login_popup">
@@ -136,8 +143,10 @@
     <div id="post_popup">
       <div class="post-form-box">
         <div class="box-close"><a href="#" class="post_popup_close"><i class="material-icons">close</i></a></div>
-        <h2>Submit to <a href="#">Subsite</a></h2>
-        <h3>as: <a href="#">Username</a></h3>
+        <div class="post-form-box-header">
+          <h2>Submit to <a href="#">Subsite</a></h2>
+          <h3>as: <a href="#">Username</a></h3>
+        </div>
         <hr>
         <form action="index.html" method="post" enctype="multipart/form-data">
           <label for="post_title"><h2>Title*</h2></label>
@@ -187,16 +196,28 @@
           extensions: ['jpg', 'jpeg', 'png', 'bmp', 'gif', 'svg', 'avi', 'mp4']
       });
 
-      var slideout = new Slideout({
+      var mobileMenu = new Slideout({
           'panel': document.getElementById('panel'),
           'menu': document.getElementById('mobile_menu'),
-          'padding': 400,
-          'tolerance': 70
+          'padding': 375,
+          'tolerance': 70,
+          'side': 'left'
       });
 
-      $('.toggle-button').on('click', function() {
-          slideout.toggle();
-      });
+      $('.toggle-menu').on('click', function() {
+          mobileMenu.toggle();
+          $("#test1").text(function(i, text){
+              return text === "menu" ? "close" : "menu";
+          })
+        });
+
+      function openSidebar() {
+          document.getElementById("sidebar").style.width = "100%";
+      }
+
+      function closeSidebar() {
+          document.getElementById("sidebar").style.width = "0";
+      }
     </script>
   </body>
 </html>

@@ -125,6 +125,10 @@ header{
   display: none;
 }
 
+.main-nav ul:nth-child(2){
+  display: none;
+}
+
 .main-nav  ul{
   display: flex;
   align-content: center;
@@ -159,10 +163,6 @@ header{
 
 #panel{
   display: none;
-}
-
-#panel i{
-  font-size: 1.5em;
 }
 
 #mobile_menu ul{
@@ -359,6 +359,10 @@ header{
   float: right;
 }
 
+#sidebar .box-close{
+  display: none;
+}
+
 
 @media only screen and (max-width: 1470px) {
 
@@ -395,18 +399,27 @@ header{
     float: left;
   }
 
-  .main-nav a{
-    font-size: 2.1em;
+  .main-nav ul:nth-child(2){
+    display: block;
   }
 
-  .main-nav ul:last-child > li:last-child{
+  .main-nav i{
+    font-size: 3.2em;
+  }
+
+  .main-nav ul:last-child{
     display: none;
   }
-  /* Login/Register */
+
+  /* Login/Register, Fileupload */
   #login_popup, #post_popup{
     height: 100%;
     width: 100%;
     overflow-y: auto;
+  }
+
+  .box-close i{
+    font-size: 3.5em;
   }
 
   #login_popup h2{
@@ -414,12 +427,24 @@ header{
     text-align: center;
   }
 
-  #login_popup a{
+  #login_popup a,{
     font-size: 2em;
+  }
+
+  #post_popup a{
+    font-size: 1em;
   }
 
   #login_popup .Checkbox-Container a{
     font-size: 1em;
+  }
+
+  .post-form-box-header h2{
+    font-size: 3em;
+  }
+
+  .post-form-box-header h3{
+    font-size: 2em;
   }
 
   #post_popup p{
@@ -456,16 +481,36 @@ header{
   }
 
   .fileuploader-input{
-    height: 70px;
+    height: 74px;
   }
 
   .fileuploader-input-caption{
-    height: 70px;
+    height: 72px;
     border: 4px solid rgb(157, 157, 157)!important;
   }
 
   .fileuploader-input-button{
     padding: 18px 20px !important;
+  }
+
+  #sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding: 0px;
+    transition: 0.5s;
+  }
+
+  #sidebar .box-close{
+    display: block;
+  }
+
+  .sidebar-wrapper{
+    padding: 80px 50px;
   }
 }
 

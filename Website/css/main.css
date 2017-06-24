@@ -129,6 +129,11 @@ header{
   display: none;
 }
 
+.main-nav ul:nth-child(3){
+  display: none;
+}
+
+
 .main-nav  ul{
   display: flex;
   align-content: center;
@@ -171,13 +176,13 @@ header{
 }
 
 #mobile_menu li{
-  margin-bottom: 25px;
+  margin-top: 50px;
   list-style-type: none;
 }
 
 #mobile_menu a{
   color: white;
-  font-size: 2.5em;
+  font-size: 3.2em;
   display: flex;
   align-items: center;
 }
@@ -213,7 +218,6 @@ header{
   padding-left: 45px;
 }
 
-
 .sub-header p{
   height: 98px;
   width: 100%;
@@ -236,6 +240,7 @@ header{
   align-content: center;
   padding: 0 40px;
 }
+
 .sort-nav li{
   list-style: none;
   padding-right: 22px;
@@ -326,6 +331,10 @@ header{
   border-bottom: 1px solid rgb(157, 157, 157);
 }
 
+#sidebar i{
+  font-style: normal;
+}
+
 #sidebar h2{
   margin-top: 25px;
 }
@@ -394,12 +403,25 @@ header{
     margin: 0px;
   }
 
+  .main-nav{
+    height: 112px;
+  }
+
+  .main-nav a{
+    font-size: 2em;
+    height: 86px;
+  }
+
   .main-nav #panel {
     display: block;
     float: left;
   }
 
   .main-nav ul:nth-child(2){
+    display: block;
+  }
+
+  .main-nav ul:nth-child(3){
     display: block;
   }
 
@@ -411,6 +433,19 @@ header{
     display: none;
   }
 
+  .sub-header{
+    padding-top: 138px;
+    justify-content: center;
+  }
+
+  .sub-header img{
+    height: 175px;
+  }
+
+  .sub-header a:nth-child(2){
+    display: none;
+  }
+
   /* Login/Register, Fileupload */
   #login_popup, #post_popup{
     height: 100%;
@@ -418,21 +453,21 @@ header{
     overflow-y: auto;
   }
 
-  .box-close i{
-    font-size: 3.5em;
-  }
-
   #login_popup h2{
     font-size: 3em;
     text-align: center;
   }
 
-  #login_popup a,{
+  #login_popup a{
     font-size: 2em;
   }
 
-  #post_popup a{
-    font-size: 1em;
+  #post_popup i{
+    font-size: 5em;
+  }
+
+  #login_popup i{
+    font-size: 2.5em;
   }
 
   #login_popup .Checkbox-Container a{
@@ -507,10 +542,76 @@ header{
 
   #sidebar .box-close{
     display: block;
+    left: 50px;
+  }
+
+  #sidebar .box-close i{
+    font-size: 3.5em;
   }
 
   .sidebar-wrapper{
     padding: 80px 50px;
+  }
+
+  #sidebar h2{
+    font-size: 3em;
+  }
+
+  #sidebar i{
+    font-size: 2em;
+  }
+
+  #sidebar span{
+    font-size: 2.5em;
+  }
+
+  #sidebar a{
+    font-size: 2em;
+  }
+
+  #sidebar select{
+    height: 60px;
+    width: 100%;
+    font-size: 2em;
+  }
+
+  #sidebar form{
+    margin-top: 75px;
+  }
+
+  #sidebar input[type="text"]{
+    height: 100px;
+    font-size: 2.5em;
+  }
+
+  #sidebar button{
+    height: 100px;
+    width: 100px;
+  }
+
+  #sidebar button i{
+    font-size: 2.5em;
+  }
+
+  #sidebar .sidebar-btn{
+    height: 100px;
+    font-size: 2.5em;
+  }
+
+  .sort-nav{
+    height: 100px;
+  }
+
+  .sort-nav li{
+    padding: 0 25px;
+  }
+
+  .sort-nav li:last-child{
+    display: none;
+  }
+
+  .sort-nav a{
+    font-size: 3em;
   }
 }
 

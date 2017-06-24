@@ -19,6 +19,9 @@
           <li id="panel"><a href="#" class="toggle-menu"><i class="material-icons" id="test1">menu</i></a></li>
         </ul>
         <ul>
+          <li><a href="#">Subsite</a></li>
+        </ul>
+        <ul>
           <li><a href="#" class="toggle-sidebar" onclick="openSidebar()"><i class="material-icons">arrow_back</i></a></li>
         </ul>
         <ul>
@@ -28,7 +31,7 @@
       </nav>
       <nav id="mobile_menu">
         <ul>
-          <!-- <li><a href="#" class="login_popup_open">Login or Register</a></li> -->
+          <li><a href="#" class="login_popup_open"><i class="material-icons">person</i>Login or Register</a></li>
           <li class="desktop_menu"><a href="#" class="post_popup_open"><i class="material-icons">label</i>Create a Post</a></li>
           <li class="desktop_menu"><a href="sites/dashboard.html"><i class="material-icons">dashboard</i>Dashboard</a></li>
           <li class="desktop_menu"><a href="sites/messages.html"><i class="material-icons">chat_bubble</i>Messages</a></li>
@@ -54,7 +57,7 @@
       </div >
       <div id="sidebar">
         <div class="sidebar-wrapper">
-          <div class="box-close"><a href="#" class="login_popup_close" onclick="closeSidebar()"><i class="material-icons">close</i></a></div>
+          <div class="box-close"><a href="#" class="login_popup_close" onclick="closeSidebar()"><i class="material-icons">arrow_forward</i></a></div>
           <form class="" action="index.html" method="post">
             <input type="text" name="search" placeholder="Search...">
             <button type="submit">
@@ -84,7 +87,7 @@
           <a href="#">View All</a>
           <button type="button" id="mod-msg-btn" class="sidebar-btn">Message the Moderators</button>
           <h2>My Communities</h2>
-          sort by <select>
+          <i>sort by</i> <select>
             <option value="">most subscribers</option>
             <option value="">least subscribers</option>
             <option value="">most active</option>

@@ -5,6 +5,7 @@
     <title>Nuctro</title>
     <link href="css/main.css" media="all" rel="stylesheet" >
     <link href="libraries/Fileuploader/jquery.fileuploader.css" media="all" rel="stylesheet">
+    <link href="libraries/lightbox/css/lightbox.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="img/logo/Favicon.png" rel="shortcut icon"  />
   </head>
@@ -22,7 +23,7 @@
           <li><a href="#">Subsite</a></li>
         </ul>
         <ul>
-          <li><a href="#" class="toggle-sidebar" onclick="openSidebar()"><i class="material-icons">arrow_back</i></a></li>
+          <li><a href="#" class="toggle-sidebar" onclick="openSidebar()"><i class="material-icons">more_horiz</i></a></li>
         </ul>
         <ul>
           <li><a href="#" class="login_popup_open">Login or Register</a></li>
@@ -42,7 +43,7 @@
       </nav>
     </header>
     <div class="sub-header">
-        <h1><a href="index.html"><img src="img/logo/logo.svg" alt="Logo"></a></h1><a href="#"><p>Subsite</p></a>
+        <h1><a href="index.html"><img src="img/logo/logo_full.svg" alt="Logo"></a></h1><a href="#"><p>Subsite</p></a>
     </div>
     <nav class="sort-nav">
       <ul>
@@ -53,7 +54,56 @@
       </ul>
     </nav>
     <main>
-      <div id="submission">
+      <div id="submissions">
+        <!-- Auflistung der Einträge -->
+        <div class="article">
+          <div class="article-wrapper">
+            <div class="votes">
+              <a href="#" class="upvote"><i class="material-icons">arrow_drop_up</i></a>
+              <h3>1337</h3>
+              <a href="#" class="downvote"><i class="material-icons">arrow_drop_down</i></a>
+            </div>
+            <div class="thumbnail">
+              <a href="img/thumbnails/Capture.PNG" data-lightbox="Capture.png"><img src="img/thumbnails/Capture.PNG" alt=""></a>
+            </div>
+            <div class="article-content">
+              <div class="article-title">
+                <a href="#"><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2></a>
+              </div>
+              <div class="article-bottom">
+                <div class="article-info">
+                  <p>Submittet 9hours ago in <a href="#">Subsite</a></p>
+                  <p>by <a href="'">Username</a></p>
+                </div>
+                <div class="article-links">
+                  <ul>
+                    <li><a href="#"><i class="material-icons">comment</i>123 comments</a></li>
+                    <li><a href="#"><i class="material-icons">share</i>Share</a></li>
+                    <li><a href="#"><i class="material-icons">add</i>Save</a></li>
+                    <li><a href="#"><i class="material-icons">close</i>Hide</a></li>
+                    <li><a href="#"><i class="material-icons">report</i>Report</a></li>
+                  </ul>
+                </div>
+                <ul class="article-links-mobile">
+                    <li><a href="#"><i class="material-icons">comment</i></a></li>
+                </ul>
+                <ul class="article-links-mobile">
+                  <li><a href="#"><i class="material-icons">share</i></a></li>
+                </ul>
+                <ul class="article-links-mobile">
+                  <li><a href="#"><i class="material-icons">add</i></a></li>
+                </ul>
+                <ul class="article-links-mobile">
+                  <li><a href="#"><i class="material-icons">close</i></a></li>
+                </ul>
+                <ul class="article-links-mobile">
+                  <li><a href="#"><i class="material-icons">report</i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -->
       </div >
       <div id="sidebar">
         <div class="sidebar-wrapper">
@@ -178,6 +228,8 @@
     <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
     <!-- Fileuploader Plugin -->
     <script src="libraries/Fileuploader/jquery.fileuploader.min.js" type="text/javascript"></script>
+    <!-- Lightbox Plugin -->
+    <script src="libraries/lightbox/js/lightbox.min.js"></script>
     <!-- Slideout Plugin -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
     <script>

@@ -18,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="260" column="26" lean-forward="true" selection-start-line="260" selection-start-column="26" selection-end-line="260" selection-end-column="26" />
+            <state relative-caret-position="348">
+              <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -28,8 +28,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="601" column="38" lean-forward="true" selection-start-line="601" selection-start-column="38" selection-end-line="601" selection-end-column="38" />
+            <state relative-caret-position="389">
+              <caret line="603" column="19" lean-forward="false" selection-start-line="603" selection-start-column="19" selection-end-line="603" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -45,6 +45,8 @@
       <find>mobi</find>
       <find>mobile_menu</find>
       <find>sidebar</find>
+      <find>desktop</find>
+      <find>mobile</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -222,12 +224,12 @@
       <workItem from="1498175845857" duration="11611000" />
       <workItem from="1498285819272" duration="4471000" />
       <workItem from="1498347828730" duration="16243000" />
-      <workItem from="1498442177644" duration="2210000" />
+      <workItem from="1498442177644" duration="2818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74705000" />
+    <option name="totallyTimeSpent" value="75313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,16 +448,16 @@
     <entry file="file://$PROJECT_DIR$/libraries/Fileuploader/jquery.fileuploader.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="260" column="26" lean-forward="true" selection-start-line="260" selection-start-column="26" selection-end-line="260" selection-end-column="26" />
+        <state relative-caret-position="348">
+          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="601" column="38" lean-forward="true" selection-start-line="601" selection-start-column="38" selection-end-line="601" selection-end-column="38" />
+        <state relative-caret-position="389">
+          <caret line="603" column="19" lean-forward="false" selection-start-line="603" selection-start-column="19" selection-end-line="603" selection-end-column="19" />
           <folding />
         </state>
       </provider>

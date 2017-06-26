@@ -154,6 +154,10 @@ header{
   align-items: center;
 }
 
+.main-nav .mobile_btn{
+  display: none;
+}
+
 .post-btn{
   padding: 8px 38px;
   font-size: 1.1em;
@@ -453,8 +457,6 @@ header{
   display: none;
 }
 
-
-
 #sidebar{
   padding: 40px;
   height: 100%;
@@ -596,6 +598,10 @@ header{
 
   .sub-header a:nth-child(2){
     display: none;
+  }
+
+  .main-nav .mobile_btn{
+    display: block;
   }
 
   #mobile_menu{

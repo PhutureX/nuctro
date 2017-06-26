@@ -118,10 +118,6 @@ header{
   justify-content: space-between;
 }
 
-.main-nav #mobile_menu{
-  display: none;
-}
-
 .main-nav ul:nth-child(2){
   display: none;
 }
@@ -163,7 +159,7 @@ header{
   font-size: 1.1em;
 }
 
-#panel{
+#mobile_menu{
   display: none;
 }
 
@@ -179,7 +175,7 @@ header{
 
 #mobile_menu a{
   color: white;
-  font-size: 3.2em;
+  font-size: 4em;
   display: flex;
   align-items: center;
 }
@@ -602,6 +598,29 @@ header{
     display: none;
   }
 
+  #mobile_menu{
+    background-color: rgb(26, 26, 27);
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 0px;
+    transition: 0.5s;
+  }
+
+  #mobile_menu .box-close{
+    display: block;
+    right: 50px;
+  }
+
+  #mobile_menu .box-close i{
+    font-size: 2em;
+  }
+
   /* Login/Register, Fileupload */
   #login_popup, #post_popup{
     height: 100%;
@@ -786,43 +805,6 @@ header{
     height:78px;
     font-size: 42px;
   }
-}
-
-/* Slideout CSS */
-
-.slideout-menu {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 500px;
-  min-height: 100vh;
-  background-color: rgb(26, 26, 27);
-  -webkit-overflow-scrolling: touch;
-  display: none;
-}
-
-.slideout-menu-left {
-  left: 0;
-}
-
-.slideout-menu-right {
-  right: 0;
-}
-
-.slideout-panel {
-  position: relative;
-  z-index: 1;
-  will-change: transform;
-}
-
-.slideout-open,
-.slideout-open body,
-.slideout-open .slideout-panel {
-  overflow: hidden;
-}
-
-.slideout-open .slideout-menu {
-  display: block;
 }
 
 

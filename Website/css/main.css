@@ -245,6 +245,8 @@ header{
 
 .sort-nav a{
   font-size: 1.2em;
+  display: flex;
+  align-items: center;
 }
 
 #login_popup{
@@ -783,6 +785,12 @@ header{
     height: 100px;
   }
 
+  .sort-nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   .sort-nav li{
     padding: 0 25px;
   }
@@ -793,6 +801,10 @@ header{
 
   .sort-nav a{
     font-size: 3em;
+  }
+
+  .sort-nav i{
+    font-size: 1em;
   }
 }
 

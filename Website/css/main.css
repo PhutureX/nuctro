@@ -67,7 +67,7 @@ textarea{
   height: 150px;
   padding: 15px;
   box-sizing: border-box;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 input{
@@ -221,9 +221,9 @@ main{
 }
 
 .sub-header p{
-  height: 98px;
+  height: 100px;
   width: 100%;
-  font-size: 55px;
+  font-size: 64px;
   font-style: italic;
   font-weight: lighter;
   padding: 0px;
@@ -920,7 +920,7 @@ main{
     font-size: 2em;
   }
 
-  .comments-form h2{
+  .comments-form label{
     font-size: 2em;
   }
 

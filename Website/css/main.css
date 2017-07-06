@@ -57,6 +57,7 @@ button:hover{
 
 label{
   font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
 }
 
 textarea{
@@ -204,6 +205,12 @@ main{
 
 .sub-header img{
   height: 100px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+.sub-header img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .sub-header a{
@@ -222,8 +229,7 @@ main{
 
 .sub-header p{
   height: 100px;
-  width: 100%;
-  font-size: 64px;
+  font-size: 58px;
   font-style: italic;
   font-weight: lighter;
   padding: 0px;
@@ -261,6 +267,7 @@ main{
 }
 
 .form-box{
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -320,6 +327,16 @@ main{
   position: absolute;
   right: 15px;
   top: 15px;
+}
+
+.reply-box{
+  background-color: white;
+  padding: 30px 50px;
+}
+
+.reply-box .parent{
+  border-bottom: 1px solid rgb(157, 157, 157);
+  margin-bottom: 40px;
 }
 
 #submissions{
@@ -562,6 +579,7 @@ main{
   font-family: 'Roboto', sans-serif;
   margin: 0px;
 }
+
 .comment-wrapper{
   display: flex;
   padding: 10px 0px;
@@ -716,9 +734,12 @@ main{
 
   /* Login/Register, Fileupload */
   #login_popup, #post_popup{
-    height: 100%;
     width: 100%;
-    overflow-y: auto;
+    height: 100%;
+  }
+
+  #login_popup_wrapper, #post_popup_wrapper{
+    height: auto !important;
   }
 
   #login_popup h2{
@@ -948,8 +969,22 @@ main{
     border-top: 4px solid rgb(157, 157, 157);
   }
 
+  .comment-content a{
+    padding-right: 50px;
+    font-size: 1.3em;
+  }
+
   .child{
     border-left: 4px solid rgb(157, 157, 157);
+  }
+
+  .reply-box .parent{
+    margin-top: 70px;
+    border-bottom: 4px solid rgb(157, 157, 157);
+  }
+
+  .reply-box .box-close i{
+    font-size: 5em;
   }
 
 }

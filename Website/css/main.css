@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 main{
   display: flex;
+  background-color: white;
 }
 
 p{
@@ -39,6 +40,10 @@ a{
 
 ul{
   padding: 0px;
+}
+
+li{
+  list-style-type: none;
 }
 
 button{
@@ -114,10 +119,6 @@ header{
   color: rgb(255, 255, 255);
   position: fixed;
   width: 100%;
-}
-
-main{
-  background-color: white;
 }
 
 .main-nav{
@@ -669,7 +670,137 @@ main{
   padding-left: 40px;
 }
 
+#dashboard_menu{
+  width: 250px;
+  background-color: rgb(26, 26, 27);
+}
 
+#dashboard_menu ul{
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#dashboard_menu li{
+  padding: 15px 0px;
+  list-style-type: none;
+}
+
+#dashboard_menu a{
+  display: flex;
+  align-items: center;
+  font-size: 1.7em;
+  color: white;
+}
+
+#dashboard_menu i{
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  padding-right: 5px;
+}
+
+#dashboard_menu a:hover>i{
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  padding-right: 15px;
+}
+
+.dashboard_wrapper{
+  height: 100%;
+  padding: 20px 40px;
+}
+
+.dashboard_content{
+  width: calc(100% - 250px)
+}
+
+.dashboard_content h2{
+  font-size: 2.5em;
+  font-style: normal;
+}
+
+.dashboard_content p{
+  font-size: 1.2em;
+}
+
+.dashboard_items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dashboard_widget{
+  min-width: 250px;
+  max-width: 750px;
+  height: 100%;
+  padding: 40px;
+  margin-top: 50px;
+  margin-right: 40px;
+  background-color: rgb(26, 26, 27);
+}
+
+.dashboard_widget h3{
+  border-bottom: 1px solid white;
+  font-size: 2em;
+  font-style: normal;
+  color: white;
+}
+
+.dashboard_widget p{
+  margin: 0px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.dashboard_widget .dashboard_widget_green{
+  color: green;
+}
+
+.dashboard_widget .dashboard_widget_red{
+  color: red;
+}
+
+.dashboard_widget .dashboard_widget_blue{
+  color: rgb(42, 119, 233);
+}
+
+.dashboard_widget p:last-child{
+  border-top: 1px solid white;
+  font-weight: 800;
+}
+
+.dashboard_widget span{
+  float: right;
+}
+
+.dashboard_widget .comment-content i, .dashboard_widget .comment-content b{
+  color: white;
+}
+
+.dashboard_widget .parent{
+  margin: 0px 0px 10px 0px;
+}
+
+.dashboard_widget .parent p{
+  font-size: 1em;
+}
+
+.dashboard_widget .article-wrapper{
+  padding: 25px 0px;
+}
+
+.dashboard_widget .article{
+  background-color: rgb(26, 26, 27);
+}
+
+.dashboard_widget .article h2{
+  font-size: 1.5em;
+}
+
+.dashboard_widget .article p, .dashboard_widget .article h3{
+  font-size: 1em;
+  font-weight: normal;
+  border: none;
+}
 
 @media only screen and (max-width: 1400px) {
 
@@ -1092,6 +1223,19 @@ main{
     font-size: 2em;
   }
 
+  #dashboard_menu{
+    display: none;
+  }
+
+  .dashboard_content{
+    width: 100%;
+  }
+
+  .dashboard_widget{
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
 @media only screen and (max-width: 401px), (min-device-width : 320px) and (max-device-width : 480px) {

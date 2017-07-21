@@ -284,7 +284,7 @@ header{
 }
 
 .form-box input{
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .register-col{
@@ -312,6 +312,7 @@ header{
 .Checkbox-Container label{
   font-size: 1.1em;
   padding-left: 15px;
+  padding-top: 11px;
 }
 
 #post_popup{
@@ -730,7 +731,6 @@ header{
 
 .dashboard_content{
   width: calc(100% - 250px);
-  border-top: 1px solid rgb(157, 157, 157);
 }
 
 .dashboard_content h2{
@@ -831,7 +831,6 @@ footer{
   background-color: rgb(26, 26, 27);
   display: flex;
   justify-content: center;
-  border-top: 1px solid rgb(157, 157, 157);
   color: white;
   padding: 50px 250px;
 }
@@ -938,6 +937,10 @@ footer img{
   }
 
   /* Mobile Navigation */
+  header{
+    border-bottom: solid 10px rgb(42, 119, 233);
+  }
+
   .main-nav .desktop_menu {
     display: none;
     padding: 0px;

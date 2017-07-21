@@ -112,6 +112,10 @@ input[type="submit"]:hover{
   background: #7b90ef;
 }
 
+select{
+  font-size: 1.2em;
+}
+
 header{
   background-color: rgb(26, 26, 27);
   color: rgb(255, 255, 255);
@@ -177,6 +181,7 @@ header{
 #mobile_menu ul{
   padding-top: 72px;
   padding-left: 40px;
+  padding: 72px 40px;
 }
 
 #mobile_menu li{
@@ -260,7 +265,6 @@ header{
 }
 
 .sort-nav a{
-  font-size: 1.2em;
   display: flex;
   align-items: center;
 }
@@ -327,6 +331,10 @@ header{
 
 .post-form-box input[type="text"], input[type="password"], input[type="email"], textarea{
   margin-bottom: 15px;
+}
+
+.post-form-box label{
+  padding-top: 0px;
 }
 
 .box-close {
@@ -654,7 +662,6 @@ header{
   width: 100%;
   height: 50px;
   font-size: 1.3em;
-  cursor: pointer;
 }
 
 #create_subsite .block_label{
@@ -691,6 +698,7 @@ header{
 
 #dashboard_menu{
   width: 250px;
+  min-height: calc(100vh - 634px);
   background-color: rgb(26, 26, 27);
 }
 
@@ -721,7 +729,7 @@ header{
 #dashboard_menu a:hover>i{
   -webkit-transition: all .2s;
   transition: all .2s;
-  padding-right: 15px;
+  font-size: 1.2em;
 }
 
 .dashboard_wrapper{
@@ -825,6 +833,27 @@ header{
   font-size: 1em;
   font-weight: normal;
   border: none;
+}
+
+.dashboard-subsite-head ul{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.dashboard-subsite-head ul li{
+  width: 33%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.dashboard-subsite-row ul{
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-subsite-row ul li{
+  width: 33%;
+  font-size: 1.5em;
 }
 
 footer{
@@ -934,6 +963,11 @@ footer img{
   textarea{
     border: 4px solid rgb(157, 157, 157);
     font-size: 1.7em;
+  }
+
+  select{
+    height: 60px;
+    width: 100%;
   }
 
   /* Mobile Navigation */
@@ -1128,12 +1162,6 @@ footer img{
     font-size: 2em;
   }
 
-  #sidebar select{
-    height: 60px;
-    width: 100%;
-    font-size: 2em;
-  }
-
   #sidebar form{
     margin-top: 75px;
   }
@@ -1141,6 +1169,10 @@ footer img{
   #sidebar input[type="text"]{
     height: 100px;
     font-size: 2.5em;
+  }
+
+  #sidebar select{
+    font-size: 1.7em;
   }
 
   #sidebar button{
@@ -1166,18 +1198,10 @@ footer img{
   .sort-nav ul{
     width: 100%;
     display: flex;
-    justify-content: center;
   }
 
   .sort-nav li{
     padding: 0 25px;
-  }
-
-  .sort-nav li:last-child{
-    display: none;
-  }
-
-  .sort-nav a{
     font-size: 3em;
   }
 
@@ -1212,10 +1236,6 @@ footer img{
   }
 
   .comments-sort i{
-    font-size: 2em;
-  }
-
-  .comments-sort select{
     font-size: 2em;
   }
 

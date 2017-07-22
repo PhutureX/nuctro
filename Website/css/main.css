@@ -556,10 +556,8 @@ header{
 
 #sidebar li{
   list-style-type: none;
-}
-
-#sidebar span{
-  float: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 #sidebar .box-close{

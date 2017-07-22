@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="696">
+              <caret line="61" column="99" lean-forward="true" selection-start-line="61" selection-start-column="99" selection-end-line="61" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="939">
-              <caret line="1420" column="23" lean-forward="false" selection-start-line="1420" selection-start-column="23" selection-end-line="1420" selection-end-column="23" />
+              <caret line="1416" column="21" lean-forward="true" selection-start-line="1416" selection-start-column="21" selection-end-line="1416" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -121,8 +121,8 @@
       <find>load</find>
       <find>foo</find>
       <find>select</find>
-      <find>side</find>
       <find>reply</find>
+      <find>side</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -133,13 +133,13 @@
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/sites/profile.html" />
         <option value="$PROJECT_DIR$/sites/comments.html" />
-        <option value="$PROJECT_DIR$/sites/dashboard.html" />
         <option value="$PROJECT_DIR$/sites/subsites.html" />
         <option value="$PROJECT_DIR$/sites/create_subsite.html" />
         <option value="$PROJECT_DIR$/sites/messages.php.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sites/messages.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/sites/dashboard.html" />
       </list>
     </option>
   </component>
@@ -308,12 +308,12 @@
       <workItem from="1500249449079" duration="7046000" />
       <workItem from="1500598533830" duration="11092000" />
       <workItem from="1500683734808" duration="64000" />
-      <workItem from="1500683851267" duration="11900000" />
+      <workItem from="1500683851267" duration="12361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167307000" />
+    <option name="totallyTimeSpent" value="167768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,14 +601,6 @@
     <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/libraries/Fileuploader/jquery.fileuploader.js" />
     <entry file="file://$PROJECT_DIR$/sites/profile.html" />
-    <entry file="file://$PROJECT_DIR$/sites/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="33" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/create_subsite.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
@@ -625,18 +617,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sites/subsites.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="586" column="48" lean-forward="true" selection-start-line="586" selection-start-column="48" selection-end-line="586" selection-end-column="48" />
+        <state relative-caret-position="493">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/comments.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="179" column="51" lean-forward="false" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="67" />
+        <state relative-caret-position="939">
+          <caret line="1416" column="21" lean-forward="true" selection-start-line="1416" selection-start-column="21" selection-end-line="1416" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -649,18 +641,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/subsites.html">
+    <entry file="file://$PROJECT_DIR$/sites/comments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        <state relative-caret-position="667">
+          <caret line="179" column="51" lean-forward="false" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="1420" column="23" lean-forward="false" selection-start-line="1420" selection-start-column="23" selection-end-line="1420" selection-end-column="23" />
+        <state relative-caret-position="618">
+          <caret line="586" column="48" lean-forward="true" selection-start-line="586" selection-start-column="48" selection-end-line="586" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="61" column="99" lean-forward="true" selection-start-line="61" selection-start-column="99" selection-end-line="61" selection-end-column="99" />
           <folding />
         </state>
       </provider>

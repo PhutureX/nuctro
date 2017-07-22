@@ -724,12 +724,6 @@ header{
   padding-right: 5px;
 }
 
-#dashboard_menu a:hover>i{
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  font-size: 1.2em;
-}
-
 .dashboard_wrapper{
   height: 100%;
   padding: 20px 40px;
@@ -767,6 +761,7 @@ header{
   padding: 40px;
   margin: 25px 20px;
   background-color: rgb(26, 26, 27);
+  box-shadow: 10px 10px 5px grey;
 }
 
 .dashboard_widget h3{
@@ -1419,6 +1414,7 @@ footer img{
     width: 100%;
     margin-right: 0px;
     border-radius: 10px;
+    box-shadow: none;
   }
 
   .dashboard_content .dashboard_border{

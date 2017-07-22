@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="618">
+              <caret line="586" column="48" lean-forward="true" selection-start-line="586" selection-start-column="48" selection-end-line="586" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -27,8 +27,8 @@
       <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/comments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="427" column="70" lean-forward="false" selection-start-line="427" selection-start-column="70" selection-end-line="427" selection-end-column="70" />
+            <state relative-caret-position="667">
+              <caret line="179" column="51" lean-forward="false" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -57,8 +57,18 @@
       <file leaf-file-name="subsites.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/subsites.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/messages.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="96" column="50" lean-forward="false" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -67,8 +77,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="575" column="19" lean-forward="true" selection-start-line="575" selection-start-column="19" selection-end-line="575" selection-end-column="19" />
+            <state relative-caret-position="939">
+              <caret line="1420" column="23" lean-forward="false" selection-start-line="1420" selection-start-column="23" selection-end-line="1420" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -112,6 +122,7 @@
       <find>foo</find>
       <find>select</find>
       <find>side</find>
+      <find>reply</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -125,7 +136,9 @@
         <option value="$PROJECT_DIR$/sites/dashboard.html" />
         <option value="$PROJECT_DIR$/sites/subsites.html" />
         <option value="$PROJECT_DIR$/sites/create_subsite.html" />
+        <option value="$PROJECT_DIR$/sites/messages.php.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sites/messages.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -137,9 +150,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-16" />
     <option name="width" value="2576" />
     <option name="height" value="1416" />
   </component>
@@ -296,12 +308,12 @@
       <workItem from="1500249449079" duration="7046000" />
       <workItem from="1500598533830" duration="11092000" />
       <workItem from="1500683734808" duration="64000" />
-      <workItem from="1500683851267" duration="1230000" />
+      <workItem from="1500683851267" duration="11900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156637000" />
+    <option name="totallyTimeSpent" value="167307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,7 +325,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.134375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -345,15 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2755">
-          <caret line="95" column="44" lean-forward="false" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/comments.html" />
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26448">
@@ -606,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/subsites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/create_subsite.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
@@ -622,26 +617,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/comments.html">
+    <entry file="file://$PROJECT_DIR$/sites/messages.php.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="427" column="70" lean-forward="false" selection-start-line="427" selection-start-column="70" selection-end-line="427" selection-end-column="70" />
+        <state relative-caret-position="261">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state relative-caret-position="618">
+          <caret line="586" column="48" lean-forward="true" selection-start-line="586" selection-start-column="48" selection-end-line="586" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="179" column="51" lean-forward="false" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="96" column="50" lean-forward="false" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/subsites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="575" column="19" lean-forward="true" selection-start-line="575" selection-start-column="19" selection-end-line="575" selection-end-column="19" />
+        <state relative-caret-position="939">
+          <caret line="1420" column="23" lean-forward="false" selection-start-line="1420" selection-start-column="23" selection-end-line="1420" selection-end-column="23" />
           <folding />
         </state>
       </provider>

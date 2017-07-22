@@ -64,7 +64,7 @@ label{
 }
 
 textarea{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   display: block;
   resize: none;
   width: 100%;
@@ -839,19 +839,90 @@ header{
 }
 
 .dashboard-subsite-head ul li{
-  width: 33%;
+  width: 25%;
   font-size: 2em;
   font-weight: bold;
+}
+
+.dashboard-subsite-head ul li:first-child{
+  width: 50%;
+}
+
+.dashboard-subsite-head ul li:first-child{
+  padding-left: 25px;
+}
+
+.dashboard-subsite-row{
+  background-color: rgb(26, 26, 27);
+  color: white;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .dashboard-subsite-row ul{
   display: flex;
   align-items: center;
+  padding: 15px 0px;
 }
 
 .dashboard-subsite-row ul li{
-  width: 33%;
+  width: 25%;
   font-size: 1.5em;
+}
+
+.dashboard-subsite-row ul li:first-child{
+  width: 50%;
+}
+
+.dashboard-subsite-row ul li:first-child{
+  padding-left: 25px;
+}
+
+.dashboard-message{
+  margin-top: 25px;
+  background-color: rgb(26, 26, 27);
+  box-shadow: 10px 10px 5px grey;
+  color: white;
+}
+
+.dashboard-message-wrapper{
+  padding: 25px;
+}
+
+.dashboard-message a{
+  margin-right: 25px;
+}
+
+.dashboard-message h3{
+  font-size: 1.5em;
+  color: white;
+}
+
+.message-sort ul{
+  display: flex;
+}
+
+.message-sort ul li{
+  font-size: 1.5em;
+  margin-right: 25px;
+}
+
+.message-sort-active{
+  border-bottom: 3px solid rgb(42, 119, 233);
+}
+
+.reply-box .dashboard-message{
+  border-bottom: none;
+  background-color: transparent;
+  color: black;
+  box-shadow: none;
+}
+
+.reply-box .dashboard-message h3{
+  color: black;
+}
+
+.reply-box input[type="text"]{
+margin: 10px 0px;
 }
 
 footer{
@@ -1347,6 +1418,7 @@ footer img{
     max-width: 100%;
     width: 100%;
     margin-right: 0px;
+    border-radius: 10px;
   }
 
   .dashboard_content .dashboard_border{
@@ -1359,6 +1431,41 @@ footer img{
 
   .dashboard_widget .article-title h2{
     font-size: 2.3em;
+  }
+
+  .dashboard-subsite-row{
+    box-shadow: none;
+    border-radius: 10px;
+  }
+
+  .dashboard-subsite-row ul li{
+    font-size: 2em;
+  }
+
+  .message-sort ul{
+    justify-content: center;
+  }
+
+  .dashboard-message{
+    font-size: 1.5em;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+
+  .dashboard-message h3{
+    text-align: left;
+  }
+
+  .dashboard-message a{
+    font-size: 1.5em;
+  }
+
+  .dashboard-message span a{
+    font-size: 1em;
+  }
+
+  .message-sort ul li{
+    font-size: 2em;
   }
 
   footer{

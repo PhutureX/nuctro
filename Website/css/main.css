@@ -764,6 +764,10 @@ header{
   box-shadow: 10px 10px 5px grey;
 }
 
+.full-size{
+  width: 100%;
+}
+
 .dashboard_widget h3{
   border-bottom: 1px solid white;
   font-size: 2em;

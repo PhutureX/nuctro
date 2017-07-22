@@ -662,7 +662,7 @@ header{
   font-size: 1.3em;
 }
 
-#create_subsite .block_label{
+.block_label{
   font-size: 1.8em;
   display: block;
   margin-top: 25px;
@@ -696,7 +696,6 @@ header{
 
 #dashboard_menu{
   width: 250px;
-  min-height: calc(100vh - 634px);
   background-color: rgb(26, 26, 27);
 }
 
@@ -731,6 +730,7 @@ header{
 
 .dashboard_content{
   width: calc(100% - 250px);
+  min-height: calc(100vh - 634px);
 }
 
 .dashboard_content h2{
@@ -901,7 +901,7 @@ header{
   margin-right: 25px;
 }
 
-.message-sort-active{
+.nav-active{
   border-bottom: 3px solid rgb(42, 119, 233);
 }
 
@@ -918,6 +918,77 @@ header{
 
 .reply-box input[type="text"]{
 margin: 10px 0px;
+}
+
+.dashboard-settings-nav ul{
+  display: flex;
+  padding-bottom: 16px;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+.dashboard-settings-nav ul li{
+  margin-right: 25px;
+}
+
+.dashboard-settings-nav ul li a{
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+.dashboard-settings-nav ul li:last-child a{
+  color: red;
+  border-color: red;
+}
+.settings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.settings form{
+  margin: 75px 0px;
+  width: 50%;
+}
+
+.settings form input[type="submit"]{
+  margin-top: 16px;
+}
+
+.settings-profile{
+  display: block;
+  width: 100%;
+}
+
+.settings-theme{
+  display: none;
+  width: 100%;
+}
+
+.settings-site{
+  display: none;
+  width: 100%;
+}
+
+.settings-problem{
+  display: none;
+  width: 100%;
+}
+
+.settings-deactivate{
+  display: none;
+  width: 100%;
+  color: red;
+}
+
+.settings-deactivate input[type="submit"]{
+  background-color: red;
+}
+
+.settings-problem select{
+  width: 100%;
+  font-size: 1.5em;
 }
 
 footer{
@@ -952,6 +1023,14 @@ footer img{
   font-size: 1.3em;
 }
 
+/* Navigation Fix */
+@media only screen and (max-width: 1025px){
+  nav{
+    font-size: 0.8em;
+  }
+}
+
+/* Article Fix */
 @media only screen and (max-width: 1400px) {
 
   .article-wrapper{
@@ -985,7 +1064,7 @@ footer img{
   }
 }
 
-
+/* Popup Box Fix */
 @media only screen and (max-width: 1470px) {
 
   .form-box{
@@ -1006,6 +1085,8 @@ footer img{
   }
 }
 
+
+/* Mobile Media Query */
 @media only screen and (max-width: 960px), (min-device-width : 320px) and (max-device-width : 620px) {
 
   input[type="text"], input[type="password"], input[type="email"] {
@@ -1015,7 +1096,7 @@ footer img{
   }
 
   input[type="submit"] {
-    height: 100px;
+    height: 75px;
     font-size: 2em;
   }
 
@@ -1273,6 +1354,8 @@ footer img{
     font-size: 1em;
   }
 
+  /* Articles */
+
   .thumbnail{
     width: 150px;
     height: 150px;
@@ -1294,6 +1377,8 @@ footer img{
   .article-title h2{
     font-size: 2.3em;
   }
+
+  /* Comments */
 
   .comments-sort h2{
     font-size: 2em;
@@ -1354,6 +1439,8 @@ footer img{
     border: none;
   }
 
+  /* Create Subsite */
+
   #create_subsite h2{
     font-size: 3em;
   }
@@ -1378,6 +1465,8 @@ footer img{
   #create_subsite .radio_label{
     font-size: 2em;
   }
+
+  /* Dashboard */
 
   #dashboard_menu{
     display: none;
@@ -1442,6 +1531,8 @@ footer img{
     justify-content: center;
   }
 
+  /* Dashboard Messages */
+
   .dashboard-message{
     font-size: 1.5em;
     box-shadow: none;
@@ -1464,6 +1555,22 @@ footer img{
     font-size: 2em;
   }
 
+  /* Dashboard Settings */
+
+  .dashboard-settings-nav{
+    font-size: 1.4em;
+  }
+
+  .settings-box label, .settings-box p{
+    font-size: 2em;
+  }
+
+  .settings form{
+    width: 100%;
+  }
+
+  /* Footer */
+
   footer{
     padding: 50px 0px;
   }
@@ -1474,12 +1581,6 @@ footer img{
 
   .footer-item a{
     font-size: 1.8em;
-  }
-}
-
-@media only screen and (max-width: 401px), (min-device-width : 320px) and (max-device-width : 480px) {
-  .Checkbox-Container label{
-    font-size: 0.8em;
   }
 }
 

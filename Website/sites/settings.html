@@ -53,7 +53,7 @@
     <ul>
         <li><a href="dashboard.html">Dashboard</a></li>
         <li>></li>
-        <li>Messages</li>
+        <li>Settings</li>
     </ul>
 </nav>
 <main>
@@ -69,61 +69,89 @@
     </div>
     <div class="dashboard_content">
         <div class="dashboard_wrapper">
-            <h2>Messages</h2>
-            <nav class="message-sort">
+            <h2>Settings</h2>
+            <p class="dashboard_border"></p>
+            <nav class="dashboard-settings-nav">
                 <ul>
-                    <li><a href="#" class="nav-active">All</a></li>
-                    <li>|</a></li>
-                    <li><a href="#">Unread</a></li>
-                    <li>|</a></li>
-                    <li><a href="#">Comment Replies</a></li>
-                    <li>|</a></li>
-                    <li><a href="#">Post Replies</a></li>
+                    <li><a href="#" class="nav-active"><i class="material-icons nav">account_box</i>Profile</a></li>
+                    <li><a href="#"><i class="material-icons">color_lens</i>Theme</a></li>
+                    <li><a href="#"><i class="material-icons">comment</i>Site Options</a></li>
+                    <li><a href="#"><i class="material-icons">report_problem</i>Report a Problem</a></li>
+                    <li><a href="#"><i class="material-icons">delete_forever</i>Deactivate Account</a></li>
                 </ul>
             </nav>
-            <p class="dashboard_border"></p>
-            <div class="dashboard-message">
-                <div class="dashboard-message-wrapper">
-                <h3>Message Headline</h3>
-                <span>from <a href="#">Username</a> <i>12 hours ago</i></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi commodi corporis dolores, exercitationem hic impedit ipsa itaque labore laborum molestias nihil odit officiis praesentium quaerat quas repellat vitae voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita id iure, non ratione rem soluta voluptatem. Commodi eveniet facere illo impedit nobis perspiciatis quae quo repudiandae rerum, sit totam, vel!</p>
-                <a href="#" class="message_reply_popup_open">Reply</a>
-                <a href="#">Delete</a>
-                <a href="#">Report</a>
-                <a href="#">Block User</a>
+            <div class="settings-box">
+                <div class="settings-profile">
+                    <div class="settings">
+                        <form action="#">
+                            <h2>Change Username</h2>
+                            <input type="text" value="Current_Username" required>
+                            <input type="submit" value="Change Username">
+                        </form>
+                        <form action="#">
+                            <h2>Change Password</h2>
+                            <label for="current-pw">Current Password</label>
+                            <input type="password" id="current-pw" required>
+                            <label for="new-pw">New Password</label>
+                            <input type="password" id="new-pw" required>
+                            <input type="submit" value="Change Password">
+                        </form>
+                        <form action="#">
+                            <h2>Change Email</h2>
+                            <input type="text" value="current@email.com">
+                            <input type="submit" value="Change Email">
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="dashboard-message">
-                <div class="dashboard-message-wrapper">
-                <h3>Message Headline</h3>
-                <span>from <a href="#">Username</a> <i>12 hours ago</i></span>
-                <p>Commodi eveniet facere illo impedit nobis perspiciatis quae quo repudiandae rerum, sit totam, vel!</p>
-                <a href="#" class="message_reply_popup_open">Reply</a>
-                <a href="#">Delete</a>
-                <a href="#">Report</a>
-                <a href="#">Block User</a>
+                <div class="settings-theme">
+                    <div class="settings">
+                        <form action="#">
+                            <h2>Change Theme</h2>
+                            <input type="radio" value="normal" name="theme-color" id="theme-color-normal" checked>
+                            <label for="theme-color-normal">Normal Theme</label>
+                            <br>
+                            <input type="radio" value="dark" name="theme-color" id="theme-color-dark">
+                            <label for="theme-color-dark">Dark Theme</label>
+                            <input type="submit" value="Change Theme">
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="dashboard-message">
-                <div class="dashboard-message-wrapper">
-                <h3>Message Headline</h3>
-                <span>from <a href="#">Username</a> <i>12 hours ago</i></span>
-                <p>Commodi eveniet facere illo impedit nobis perspiciatis quae quo repudiandae rerum, sit totam, vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis, dolor excepturi illum iste mollitia officiis quis sint? Ad, asperiores consequatur distinctio esse labore laboriosam nihil qui quos ratione voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto dicta enim eos est, et facere iste itaque, molestiae nobis nostrum obcaecati officiis quibusdam, rem repellendus sit sunt voluptates voluptatibus. Assumenda blanditiis cupiditate dolores enim esse expedita fugiat ipsa itaque iure laboriosam molestias neque odio optio placeat quam recusandae, sint vitae voluptate?</p>
-                <a href="#" class="message_reply_popup_open">Reply</a>
-                <a href="#">Delete</a>
-                <a href="#">Report</a>
-                <a href="#">Block User</a>
+                <div class="settings-site">
+                    <div class="settings">
+                        <form action="#">
+                            <h2>Site Options</h2>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="dashboard-message">
-                <div class="dashboard-message-wrapper">
-                <h3>Message Headline</h3>
-                <span>from <a href="#">Username</a> <i>12 hours ago</i></span>
-                <p>Commodi eveniet facere illo impedit nobis perspiciatis quae quo repudiandae rerum, sit totam, vel!</p>
-                <a href="#" class="message_reply_popup_open">Reply</a>
-                <a href="#">Delete</a>
-                <a href="#">Report</a>
-                <a href="#">Block User</a>
+                <div class="settings-problem">
+                    <div class="settings">
+                        <form action="#">
+                            <h2>Report a Problem</h2>
+                            <select>
+                                <option value="general">General Problem</option>
+                                <option value="technical">Technical Problem</option>
+                                <option value="bug">Report a Bug</option>
+                                <option value="other">Other Problem</option>
+                            </select>
+                            <label for="problem-subject" class="block_label">Subject</label>
+                            <input type="text" id="problem-subject">
+                            <label for="problem-message" class="block_label">Message</label>
+                            <textarea id="problem-message"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="settings-deactivate">
+                    <div class="settings">
+                        <form action="#">
+                            <h2>Deactivate Account</h2>
+                            <p><b>WARNING!</b> Deactivating your account will not delete the content of posts and comments you've made on Nuctro. To do so, please delete them individually.</p>
+                            <p>Deactivated accounts are not recoverable!</p>
+                            <input type="submit" value="Deactivate Account">
+                            <input type="checkbox" id="deactivate-confirm">
+                            <label for="deactivate-confirm">I agree to deactivate my account & understand that it is not recoverable.</label>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -226,13 +254,13 @@
                 <span>from <a href="#">Username</a> <i>12 hours ago</i></span>
                 <p>Commodi eveniet facere illo impedit nobis perspiciatis quae quo repudiandae rerum, sit totam, vel!</p>
             </div>
-                <form action="#">
-                    <input type="text" placeholder="Subject" id="message_reply_subject">
-                    <textarea id="post_reply" placeholder="Message..."></textarea>
-                    <div class="comments-form-bottom">
-                        <button type="submit" id="reply-post-btn" class="post-btn">Reply</button>
-                    </div>
-                </form>
+            <form action="#">
+                <input type="text" placeholder="Subject" id="message_reply_subject">
+                <textarea id="post_reply" placeholder="Message..."></textarea>
+                <div class="comments-form-bottom">
+                    <button type="submit" id="reply-post-btn" class="post-btn">Reply</button>
+                </div>
+            </form>
         </div>
     </div>
 </footer>
@@ -289,13 +317,18 @@
         document.getElementById("mobile_menu").style.width = "0";
     }
 
-    //Active Navigation
+    //Settings Toggle
+    $('.dashboard-settings-nav ul li a').click(function(){
+        $('.settings-box > div').hide();
+        $('.settings-box > div').eq($(this).parent().index()).show();
+    });
+
     function changeActive(){
-        $('.message-sort li a').removeClass('nav-active');
+        $('.dashboard-settings-nav li a').removeClass('nav-active');
         $(this).addClass('nav-active');
     }
 
-    $('.message-sort a').on('click', changeActive);
+    $('.dashboard-settings-nav a').on('click', changeActive);
 </script>
 </body>
 </html>

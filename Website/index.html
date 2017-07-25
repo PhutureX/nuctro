@@ -48,7 +48,7 @@
     </div>
     <nav class="sort-nav">
       <ul>
-        <li><a href="#"><i class="material-icons">whatshot</i>hot</a></li>
+        <li><a href="#" class="nav-active"><i class="material-icons">whatshot</i>hot</a></li>
         <li><a href="#"><i class="material-icons">label_outline</i>new</a></li>
         <li><a href="#"><i class="material-icons">stars</i>top</a></li>
         <li><a href="#"><i class="material-icons">photo_library</i>view images</a></li>
@@ -743,6 +743,13 @@
       function closeMobileMenu() {
           document.getElementById("mobile_menu").style.width = "0";
       }
+
+      function changeActive(){
+          $('.sort-nav li a').removeClass('nav-active');
+          $(this).addClass('nav-active');
+      }
+
+      $('.sort-nav a').on('click', changeActive);
     </script>
   </body>
 </html>

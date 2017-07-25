@@ -40,20 +40,20 @@
             <hr>
             <li class="desktop_menu"><a href="dashboard.html"><i class="material-icons">home</i>Home</a></li>
             <li class="desktop_menu"><a href="subsites.html"><i class="material-icons">forum</i>My Subsites</a></li>
-            <li class="desktop_menu"><a href="friendlist.html"><i class="material-icons">supervisor_account</i>Friends</a></li>
+            <li class="desktop_menu"><a href=friendlist.html><i class="material-icons">supervisor_account</i>Friends</a></li>
             <li class="desktop_menu"><a href="messages.html"><i class="material-icons">chat_bubble</i>Messages</a></li>
             <li class="desktop_menu"><a href="settings.html"><i class="material-icons">settings</i>Settings</a></li>
         </ul>
     </nav>
 </header>
 <div class="sub-header">
-    <h1><a href="../index.html"><img src="../img/logo/logo_full.svg" alt="Logo"></a></h1><a href="#"><p>Dashboard</p></a>
+    <h1><a href="../index.html"><img src="../img/logo/logo_full.svg" alt="Logo"></a></h1><a href="#"><p>user:Username</p></a>
 </div>
 <nav class="sort-nav">
     <ul>
-        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="../index.html">Nuctro</a></li>
         <li>></li>
-        <li>Settings</li>
+        <li>Username</li>
     </ul>
 </nav>
 <main>
@@ -69,134 +69,7 @@
     </div>
     <div class="dashboard_content">
         <div class="dashboard_wrapper">
-            <h2>Settings</h2>
-            <p class="dashboard_border"></p>
-            <nav class="dashboard-settings-nav">
-                <ul>
-                    <li><a href="#" class="nav-active"><i class="material-icons nav">account_box</i>Profile</a></li>
-                    <li><a href="#"><i class="material-icons">color_lens</i>Theme</a></li>
-                    <li><a href="#"><i class="material-icons">comment</i>Site Options</a></li>
-                    <li><a href="#"><i class="material-icons">report_problem</i>Report a Problem</a></li>
-                    <li><a href="#"><i class="material-icons">delete_forever</i>Deactivate Account</a></li>
-                </ul>
-            </nav>
-            <div class="settings-box">
-                <div class="settings-profile">
-                    <div class="settings">
-                        <form action="#">
-                            <h2>Change Username</h2>
-                            <input type="text" value="Current_Username" required>
-                            <input type="submit" value="Change Username">
-                        </form>
-                        <form action="#">
-                            <h2>Change Password</h2>
-                            <label for="current-pw">Current Password</label>
-                            <input type="password" id="current-pw" required>
-                            <label for="new-pw">New Password</label>
-                            <input type="password" id="new-pw" required>
-                            <input type="submit" value="Change Password">
-                        </form>
-                        <form action="#">
-                            <h2>Change Email</h2>
-                            <input type="text" value="current@email.com">
-                            <input type="submit" value="Change Email">
-                        </form>
-                    </div>
-                </div>
-                <div class="settings-theme">
-                    <div class="settings">
-                        <form action="#">
-                            <h2>Change Theme</h2>
-                            <input type="radio" value="normal" name="theme-color" id="theme-color-normal" checked>
-                            <label for="theme-color-normal">Normal Theme</label>
-                            <br>
-                            <input type="radio" value="dark" name="theme-color" id="theme-color-dark">
-                            <label for="theme-color-dark">Dark Theme</label>
-                            <input type="submit" value="Change Theme">
-                        </form>
-                    </div>
-                </div>
-                <div class="settings-site">
-                    <div class="settings">
-                        <form action="#">
-                            <h2>Site Options</h2>
-                            <hr>
-                            <h3>Media Options</h3>
-                            <input type="checkbox" id="show_thumbnails_posts" checked> <label for="show_thumbnails_posts">Show thumbnails in posts</label> <br>
-                            <input type="checkbox" id="show_thumbnails_comments" checked> <label for="show_thumbnails_comments">Show thumbnails in comments</label> <br>
-                            <input type="checkbox" id="hide_nswf" checked> <label for="hide_nswf">Hide thumbnails for NSFW content</label>
-                            <h3>Link Options</h3>
-                            <input type="checkbox" id="show_links_upvote"> <label for="show_links_upvote">Don't show links after I upvoted them</label> <br>
-                            <input type="checkbox" id="show_links_downvote"> <label for="show_links_downvote">Don't show links after I downvoted them</label> <br>
-                            <p>display <select>
-                                <option selected>10</option>
-                                <option>25</option>
-                                <option>50</option>
-                                <option>100</option>
-                            </select>
-                                submission at once.
-                            </p>
-                            <h3>Comment Options</h3>
-                            <p>sort comments by:
-                                <select>
-                                    <option selected>best</option>
-                                    <option>new</option>
-                                    <option>old</option>
-                                </select>
-                            </p>
-                            <p>display
-                                <select>
-                                    <option>15</option>
-                                    <option selected>25</option>
-                                    <option>50</option>
-                                    <option>100</option>
-                                    <option>250</option>
-                                    <option>500</option>
-                                </select>
-                                comments at once.
-                            </p>
-                            <h3>Message Options</h3>
-                            <input type="checkbox" id="message_admin"><label for="message_admin">Only Admins can message me</label> <br>
-                            <input type="checkbox" id="mark_read" checked><label for="mark_read">Mark messages as read when I open my inbox</label><br>
-                            <input type="checkbox" id="notify_mention"><label for="notify_mention">Notify me when my username gets mentioned</label>
-                            <h3>Privacy Options</h3>
-                            <input type="checkbox" id="profile_public" checked><label for="profile_public">Make my profile public</label> <br>
-                            <input type="checkbox" id="votes_public" checked><label for="votes_public">Make my votes public</label>
-                            <input type="submit" value="Save Changes">
-                        </form>
-                    </div>
-                </div>
-                <div class="settings-problem">
-                    <div class="settings">
-                        <form action="#">
-                            <h2>Report a Problem</h2>
-                            <select>
-                                <option value="general">General Problem</option>
-                                <option value="technical">Technical Problem</option>
-                                <option value="bug">Report a Bug</option>
-                                <option value="other">Other Problem</option>
-                            </select>
-                            <label for="problem-subject" class="block_label">Subject</label>
-                            <input type="text" id="problem-subject">
-                            <label for="problem-message" class="block_label">Message</label>
-                            <textarea id="problem-message"></textarea>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                </div>
-                <div class="settings-deactivate">
-                    <div class="settings">
-                        <form action="#">
-                            <h2>Deactivate Account</h2>
-                            <p><b>WARNING!</b> Deactivating your account will not delete the content of posts and comments you've made on Nuctro. To do so, please delete them individually.</p>
-                            <p>Deactivated accounts are not recoverable!</p>
-                            <input type="submit" value="Deactivate Account">
-                            <input type="checkbox" id="deactivate-confirm">
-                            <label for="deactivate-confirm">I agree to deactivate my account & understand that it is not recoverable.</label>
-                        </form>
-                    </div>
-                </div>
-            </div>
+            <h2>Profile from Username</h2>
         </div>
     </div>
 </main>

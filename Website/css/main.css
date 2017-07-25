@@ -876,6 +876,12 @@ header{
   padding-left: 25px;
 }
 
+.dashboard-subsite-row ul li:nth-child(5) a{
+  float: right;
+  padding-right: 15px;
+  color: red;
+}
+
 .dashboard-message{
   margin-top: 25px;
   background-color: rgb(26, 26, 27);
@@ -976,6 +982,22 @@ margin: 10px 0px;
   width: 100%;
 }
 
+.settings-site form p{
+  padding: 0px;
+  margin: 0px;
+}
+
+.settings-site h3{
+  margin-top: 50px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.settings-site select{
+  font-size: 1em;
+}
+
 .settings-problem{
   display: none;
   width: 100%;
@@ -1027,6 +1049,19 @@ footer img{
 .footer-item a{
   font-size: 1.3em;
 }
+
+/* Dashboard List Fix */
+
+@media only screen and (max-width: 1666px) {
+  .dashboard-subsite-head{
+    font-size: 0.5em;
+  }
+
+  .dashboard-subsite-row{
+    font-size: 0.6em;
+  }
+}
+
 
 /* Navigation Fix */
 @media only screen and (max-width: 1025px){
@@ -1523,13 +1558,17 @@ footer img{
     font-size: 2.3em;
   }
 
+  .dashboard-subsite-head ul li{
+    font-size: 2.5em;
+  }
+
   .dashboard-subsite-row{
     box-shadow: none;
     border-radius: 10px;
   }
 
   .dashboard-subsite-row ul li{
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   .message-sort ul{

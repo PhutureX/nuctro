@@ -269,6 +269,12 @@ header{
   align-items: center;
 }
 
+.top-select{
+  display: none;
+  padding: 26px 40px;
+  border-bottom: 1px solid rgb(157, 157, 157);
+}
+
 #login_popup{
   width: 50vw;
   background-color: white;
@@ -748,6 +754,10 @@ header{
   border-bottom: 1px solid rgb(157, 157, 157);
 }
 
+.dashboard_border ul{
+  margin-top: 0px;
+}
+
 .dashboard_items{
   display: flex;
   flex-wrap: wrap;
@@ -1018,6 +1028,33 @@ margin: 10px 0px;
   font-size: 1.5em;
 }
 
+.user-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-content{
+  width: calc(100% - 225px);
+  height: 100%;
+}
+
+.user-sidebar{
+  width: 225px;
+  border-left: 1px solid rgb(157, 157, 157);
+  border-bottom: 1px solid rgb(157, 157, 157);
+  border-right: 1px solid rgb(157, 157, 157);
+}
+
+.user-sidebar-wrapper{
+  padding: 20px;
+}
+
+.user-sidebar span{
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 footer{
   background-color: rgb(26, 26, 27);
   display: flex;
@@ -1050,7 +1087,7 @@ footer img{
   font-size: 1.3em;
 }
 
-/* Dashboard List Fix */
+/* Dashboard List & Footer Fix */
 
 @media only screen and (max-width: 1666px) {
   .dashboard-subsite-head{
@@ -1059,6 +1096,10 @@ footer img{
 
   .dashboard-subsite-row{
     font-size: 0.6em;
+  }
+
+  footer{
+    padding: 50px 0px;
   }
 }
 
@@ -1152,7 +1193,6 @@ footer img{
 
   select{
     height: 60px;
-    width: 100%;
   }
 
   /* Mobile Navigation */
@@ -1215,6 +1255,14 @@ footer img{
 
   .main-nav .mobile_btn{
     display: block;
+  }
+
+  .top-select{
+    padding: 26px 65px;
+  }
+
+  .top-select span{
+    font-size: 1.5em;
   }
 
   #mobile_menu{
@@ -1550,6 +1598,12 @@ footer img{
     font-size: 2em;
   }
 
+  .dashboard_border button{
+    height: 65px;
+    width: 350px;
+    font-size: 1em;
+  }
+
   .dashboard_widget p{
     font-size: 2em;
   }
@@ -1601,9 +1655,14 @@ footer img{
 
   /* Dashboard Settings */
 
-  .dashboard-settings-nav{
-    font-size: 1.4em;
+  .dashboard-settings-nav span{
+    display: none;
   }
+
+  .dashboard-settings-nav a i{
+    font-size: 3.5em;
+  }
+
 
   .settings-box label, .settings-box p{
     font-size: 2em;

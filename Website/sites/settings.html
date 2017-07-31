@@ -23,7 +23,7 @@
             <li><a href="#" class="mobile_sitename">Dashboard</a></li>
         </ul>
         <ul>
-            <li><a href="#"><i class="material-icons">exit_to_app</i></a></li>
+            <li><a href="#" class="post_popup_open"><i class="material-icons">label</i></a></li>
         </ul>
         <ul>
             <!-- Menü wenn eingelogged -->
@@ -36,13 +36,12 @@
     <nav id="mobile_menu">
         <div class="box-close"><a href="#" class="login_popup_close" onclick="closeMobileMenu()"><i class="material-icons">close</i></a></div>
         <ul>
-            <li class="desktop_menu"><a href="#" class="post_popup_open"><i class="material-icons">label</i>Create a Post</a></li>
-            <hr>
             <li class="desktop_menu"><a href="dashboard.html"><i class="material-icons">home</i>Home</a></li>
             <li class="desktop_menu"><a href="subsites.html"><i class="material-icons">forum</i>My Subsites</a></li>
             <li class="desktop_menu"><a href="friendlist.html"><i class="material-icons">supervisor_account</i>Friends</a></li>
             <li class="desktop_menu"><a href="messages.html"><i class="material-icons">chat_bubble</i>Messages</a></li>
             <li class="desktop_menu"><a href="settings.html"><i class="material-icons">settings</i>Settings</a></li>
+            <li class="desktop_menu"><a href="#"><i class="material-icons">exit_to_app</i>Logout</a></li>
         </ul>
     </nav>
 </header>
@@ -72,14 +71,14 @@
     <div class="dashboard_content">
         <div class="dashboard_wrapper">
             <h2>Settings</h2>
-            <p class="dashboard_border"></p>
+            <div class="dashboard_border"></div>
             <nav class="dashboard-settings-nav">
                 <ul>
-                    <li><a href="#" class="nav-active"><i class="material-icons nav">account_box</i>Profile</a></li>
-                    <li><a href="#"><i class="material-icons">color_lens</i>Theme</a></li>
-                    <li><a href="#"><i class="material-icons">comment</i>Site Options</a></li>
-                    <li><a href="#"><i class="material-icons">report_problem</i>Report a Problem</a></li>
-                    <li><a href="#"><i class="material-icons">delete_forever</i>Deactivate Account</a></li>
+                    <li><a href="#" class="nav-active"><i class="material-icons nav">account_box</i><span>Profile</span></a></li>
+                    <li><a href="#"><i class="material-icons">color_lens</i><span>Theme</span></a></li>
+                    <li><a href="#"><i class="material-icons">comment</i><span>Site Options</span></a></li>
+                    <li><a href="#"><i class="material-icons">report_problem</i><span>Report a Problem</span></a></li>
+                    <li><a href="#"><i class="material-icons">delete_forever</i><span>Deactivate Account</span></a></li>
                 </ul>
             </nav>
             <div class="settings-box">

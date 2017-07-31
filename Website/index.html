@@ -50,10 +50,20 @@
       <ul>
         <li><a href="#" class="nav-active"><i class="material-icons">whatshot</i>hot</a></li>
         <li><a href="#"><i class="material-icons">label_outline</i>new</a></li>
-        <li><a href="#"><i class="material-icons">stars</i>top</a></li>
-        <li><a href="#"><i class="material-icons">photo_library</i>view images</a></li>
+        <li><a href="#" id="sort-nav-top"><i class="material-icons">stars</i>top</a></li>
       </ul>
     </nav>
+    <div class="top-select">
+      <span>links from:</span>
+      <select>
+        <option>past hour</option>
+        <option selected>past 24 hours</option>
+        <option>past week</option>
+        <option>past month</option>
+        <option>past year</option>
+        <option>all time</option>
+      </select>
+    </div>
     <main>
       <div id="submissions">
         <!-- Auflistung der Einträge -->
@@ -75,7 +85,7 @@
               <div class="article-bottom">
                 <div class="article-info">
                   <p>Submittet 9hours ago in <a href="#">Subsite</a></p>
-                  <p>by <a href="#">Username</a></p>
+                  <p>by <a href="sites/userpage.html">Username</a></p>
                 </div>
                 <div class="article-links">
                   <ul>
@@ -743,6 +753,14 @@
       function closeMobileMenu() {
           document.getElementById("mobile_menu").style.width = "0";
       }
+
+      $('.sort-nav ul li a').click(function(){
+          $('.top-select').hide();
+      });
+
+      $('#sort-nav-top').click(function(){
+          $('.top-select').show();
+      });
 
       function changeActive(){
           $('.sort-nav li a').removeClass('nav-active');

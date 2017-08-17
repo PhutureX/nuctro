@@ -968,6 +968,13 @@ margin: 10px 0px;
   flex-direction: column;
 }
 
+.settings h3{
+  margin-top: 50px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .settings form{
   margin: 75px 0px;
   width: 50%;
@@ -995,13 +1002,6 @@ margin: 10px 0px;
 .settings-site form p{
   padding: 0px;
   margin: 0px;
-}
-
-.settings-site h3{
-  margin-top: 50px;
-  font-size: 1.8em;
-  font-weight: bold;
-  font-style: italic;
 }
 
 .settings-site select{

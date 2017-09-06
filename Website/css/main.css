@@ -36,6 +36,10 @@ a{
   transition: all .2s ease-out;
 }
 
+a:hover{
+  color: rgb(77, 185, 233);
+}
+
 ul{
   padding: 0px;
 }
@@ -55,7 +59,8 @@ button{
 }
 
 button:hover{
-  background: #7b90ef;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+  background-color: rgb(41, 86, 233);
 }
 
 label{
@@ -105,11 +110,12 @@ input[type="submit"]{
   font-size: 1.3em;
   cursor: pointer;
   -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
+  transition: all .2s ease-in;
 }
 
 input[type="submit"]:hover{
-  background: #7b90ef;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+  background-color: rgb(41, 86, 233);
 }
 
 select{
@@ -117,11 +123,11 @@ select{
 }
 
 header{
-  background-color: rgb(26, 26, 27);
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: black;
   position: fixed;
   width: 100%;
-  border-bottom: solid 5px rgb(42, 119, 233);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 .main-nav{
@@ -160,7 +166,7 @@ header{
 .main-nav a{
   font-size: 1.2em;
   height: 42px;
-  color: rgb(255, 255, 255);
+  color: black;
   display: flex;
   align-items: center;
 }
@@ -214,12 +220,6 @@ header{
 
 .sub-header img{
   height: 100px;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
-}
-.sub-header img:hover {
-  -webkit-transform: scale(1.02);
-  transform: scale(1.02);
 }
 
 .sub-header a{
@@ -1197,7 +1197,7 @@ footer img{
 
   /* Mobile Navigation */
   header{
-    border-bottom: solid 10px rgb(42, 119, 233);
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.4), 0 0 0 1px rgba(0,0,0,0.08);
   }
 
   .main-nav .desktop_menu {
@@ -1212,7 +1212,7 @@ footer img{
 
   .main-nav a{
     font-size: 2em;
-    height: 78px;
+    height: 86px;
   }
 
   .main-nav .mobile_sitename{

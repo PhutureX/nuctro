@@ -166,9 +166,13 @@ header{
 .main-nav a{
   font-size: 1.2em;
   height: 42px;
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
+}
+
+.main-nav a:hover{
+  color: rgb(41, 86, 233);
 }
 
 .main-nav .mobile_btn{
@@ -182,24 +186,19 @@ header{
 
 #mobile_menu{
   display: none;
-}
-
-#mobile_menu ul{
-  padding-top: 72px;
-  padding-left: 40px;
-  padding: 72px 40px;
-}
-
-#mobile_menu li{
-  margin-top: 50px;
-  list-style-type: none;
+  box-shadow: 5px 0px 15px 0px rgba(0,0,0,0.5);
 }
 
 #mobile_menu a{
-  color: white;
+  padding: 20px 40px;
+  color: rgba(0, 0, 0, 0.7);
   font-size: 4em;
   display: flex;
   align-items: center;
+}
+
+#mobile_menu a:nth-child(2){
+  margin-top: 115px;
 }
 
 #mobile_menu i{
@@ -701,31 +700,25 @@ header{
 }
 
 #dashboard_menu{
-  width: 250px;
-  background-color: rgb(26, 26, 27);
-}
-
-#dashboard_menu ul{
-  padding-left: 40px;
-  display: flex;
-  flex-direction: column;
-}
-
-#dashboard_menu li{
   padding: 15px 0px;
-  list-style-type: none;
+  width: 250px;
+  border-right: 1px solid black;
 }
+
 
 #dashboard_menu a{
+  padding: 8px 40px;
   display: flex;
   align-items: center;
   font-size: 1.7em;
-  color: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#dashboard_menu a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 #dashboard_menu i{
-  -webkit-transition: all .2s;
-  transition: all .2s;
   padding-right: 5px;
 }
 
@@ -1266,7 +1259,7 @@ footer img{
   }
 
   #mobile_menu{
-    background-color: rgb(26, 26, 27);
+    background-color: white;
     display: block;
     height: 100%;
     width: 0;
@@ -1281,7 +1274,7 @@ footer img{
 
   #mobile_menu .box-close{
     display: block;
-    right: 50px;
+    right: 10px;
   }
 
   #mobile_menu .box-close i{

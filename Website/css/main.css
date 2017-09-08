@@ -156,7 +156,6 @@ header{
   display: none;
 }
 
-
 .main-nav  ul{
   display: flex;
   align-content: center;
@@ -234,7 +233,7 @@ header{
 }
 
 .sub-header{
-  padding-top: 105px;
+  padding-top: 95px;
   padding-bottom: 26px;
   padding-left: 40px;
   display: flex;
@@ -1231,7 +1230,6 @@ footer img{
   }
 }
 
-
 /* Mobile Media Query */
 @media only screen and (max-width: 960px), (min-device-width : 320px) and (max-device-width : 620px) {
 
@@ -1446,16 +1444,19 @@ footer img{
     right: 0;
     overflow-x: hidden;
     padding: 0px;
-    transition: 0.5s;
+    transition: 0.4s ease-out;
+    box-shadow: -5px 0px 15px 0px rgba(0,0,0,0.5);
   }
 
   #sidebar .box-close{
     display: block;
     left: 50px;
+    top: 16px;
   }
 
   #sidebar .box-close i{
-    font-size: 3.5em;
+    font-size: 2.5em;
+    color: rgba(0, 0, 0, 0.7);
   }
 
   .sidebar-wrapper{
@@ -1497,7 +1498,7 @@ footer img{
   }
 
   #sidebar button i{
-    font-size: 2.5em;
+    font-size: 4em;
   }
 
   #sidebar .sidebar-btn{
@@ -1546,7 +1547,7 @@ footer img{
   }
 
   .article-title h2{
-    font-size: 2.3em;
+    font-size: 2em;
   }
 
   /* Comments */
@@ -1612,8 +1613,24 @@ footer img{
 
   /* Create Subsite */
 
+  #create_subsite{
+    display: block;
+    padding: 40px 65px;
+  }
+
+  .create_subsite_general{
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .create_subsite_sidebar{
+    width: 100%;
+    padding-left: 0px;
+  }
+
   #create_subsite h2{
     font-size: 3em;
+    text-align: center;
   }
 
   #create_subsite p{

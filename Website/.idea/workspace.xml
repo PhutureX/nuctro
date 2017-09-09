@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="748" column="65" lean-forward="true" selection-start-line="748" selection-start-column="65" selection-end-line="748" selection-end-column="65" />
+            <state relative-caret-position="938">
+              <caret line="719" column="33" lean-forward="false" selection-start-line="719" selection-start-column="33" selection-end-line="719" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friendlist.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="friendlist.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/friendlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+            <state relative-caret-position="493">
+              <caret line="67" column="98" lean-forward="true" selection-start-line="67" selection-start-column="98" selection-end-line="67" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="1231" column="0" lean-forward="true" selection-start-line="1231" selection-start-column="0" selection-end-line="1231" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="1200" column="33" lean-forward="true" selection-start-line="1200" selection-start-column="33" selection-end-line="1200" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -175,9 +175,9 @@
         <option value="$PROJECT_DIR$/sites/userpage.html" />
         <option value="$PROJECT_DIR$/sites/create_subsite.html" />
         <option value="$PROJECT_DIR$/sites/comments.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sites/friendlist.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -378,12 +378,12 @@
       <workItem from="1504712864985" duration="7003000" />
       <workItem from="1504760787015" duration="1502000" />
       <workItem from="1504847368054" duration="11797000" />
-      <workItem from="1504909425843" duration="3850000" />
+      <workItem from="1504909425843" duration="5770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239177000" />
+    <option name="totallyTimeSpent" value="241097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,26 +729,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/sites/friendlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="1231" column="0" lean-forward="true" selection-start-line="1231" selection-start-column="0" selection-end-line="1231" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="67" column="98" lean-forward="true" selection-start-line="67" selection-start-column="98" selection-end-line="67" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="748" column="65" lean-forward="true" selection-start-line="748" selection-start-column="65" selection-end-line="748" selection-end-column="65" />
+        <state relative-caret-position="938">
+          <caret line="719" column="33" lean-forward="false" selection-start-line="719" selection-start-column="33" selection-end-line="719" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/friendlist.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state relative-caret-position="290">
+          <caret line="1200" column="33" lean-forward="true" selection-start-line="1200" selection-start-column="33" selection-end-line="1200" selection-end-column="33" />
           <folding />
         </state>
       </provider>

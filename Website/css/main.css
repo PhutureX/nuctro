@@ -208,7 +208,7 @@ header{
 }
 
 #mobile_menu a{
-  padding: 20px 40px;
+  padding: 15px 40px;
   color: rgba(0, 0, 0, 0.7);
   font-size: 4em;
   display: flex;
@@ -370,8 +370,8 @@ header{
 
 .box-close {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 15px;
+  top: 15px;
 }
 
 #reply_popup{
@@ -936,8 +936,12 @@ header{
 .dashboard-message{
   margin-top: 25px;
   background-color: rgb(26, 26, 27);
-  box-shadow: 10px 10px 5px grey;
   color: white;
+  transition: all .2s ease-out;
+}
+
+.dashboard-message:hover{
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
 .dashboard-message-wrapper{
@@ -1357,7 +1361,8 @@ footer img{
 
   #mobile_menu .box-close{
     display: block;
-    right: 10px;
+    right: 0px;
+    top: 0px;
   }
 
   #mobile_menu .box-close i{
@@ -1464,7 +1469,7 @@ footer img{
   #sidebar .box-close{
     display: block;
     left: 50px;
-    top: 16px;
+    top: 15px;
   }
 
   #sidebar .box-close i{

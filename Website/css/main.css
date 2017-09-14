@@ -790,7 +790,7 @@ header{
 #dashboard_menu{
   padding: 15px 0px;
   width: 250px;
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(157, 157, 157)
 }
 
 
@@ -1593,6 +1593,8 @@ footer img{
   .sort-nav li{
     padding: 0 25px;
     font-size: 3em;
+    display: flex;
+    align-items: center;
   }
 
   .sort-nav i{

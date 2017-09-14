@@ -4,9 +4,10 @@ require "includes/dbconnect.php";
 require "includes/functions.php";
 
 
-$page = ( isset($_GET['page'])) ? $_GET['page'] : "home";
 
+$site = "sites/frontpage.php";
 
 
 require "header.php";
+require $site;
 require "footer.php";

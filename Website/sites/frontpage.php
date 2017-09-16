@@ -1,5 +1,5 @@
 <div class="sub-header">
-    <h1><a href="/nuctro/website"><img src="img/logo/logo_full.svg" alt="Logo"></a></h1><a href="#"><p>Frontpage</p></a>
+    <h1><a href="/"><img src="img/logo/logo_full.svg" alt="Logo"></a></h1><a href="/"><p>Frontpage</p></a>
 </div>
 <nav class="sort-nav">
     <ul>
@@ -549,7 +549,7 @@
             </ul>
             <hr>
             <a href="#">View All</a>
-            <a href="sites/create_subsite.html"><button type="button" id="create-sub-btn" class="sidebar-btn">Create your own Subsite</button></a>
+            <a href="create"><button type="button" id="create-sub-btn" class="sidebar-btn">Create your own Subsite</button></a>
         </div>
     </div>
 </main>
